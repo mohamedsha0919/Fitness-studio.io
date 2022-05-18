@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+}
+.navbar-brand img{
+    width: 130px;
+    height: 130px;
+}
+@media (max-width: 768px){
+    .navbar-brand img{
+        margin-top: -30px;
+    }
+}
+.navbar-nav{
+    margin-right: 30px;
+}
+.nav-item{
+    padding-right: 20px;
+}
+.nav-link{
+    color: #000000;
+    font-size: 20px;
+}
+.masthead{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.pixabay.com/photo/2017/01/11/18/35/blur-1972569_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.display-1{
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+@media (max-width: 768px){
+    .display-1{
+        font-size: 50px;
+    }
+}
+em{
+    color: #FFFFFF;
+}
+@media (max-width: 768px){
+    em{
+        font-size: 17px;
+    }
+}
+.banner-content{
+    color: #FFFFFF;
+}
+#blogs{
+    margin-top: 50px;
+    overflow-x: hidden;
+    padding-bottom: 30px;
+}
+.card{
+    width: 90%;
+    height: 100%;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (max-width: 768px){
+    .card{
+        margin-left: 25px;
+    }
+}
+@media (max-width: 768px){
+    .card1{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 768px){
+    .card2{
+        margin-top: 30px;
+    }
+}
+.card-img-top{
+    width: 100%;
+    height: 80vh;
+    padding: 10px;
+}
+#about-us{
+    margin-top: 50px;
+    overflow-x: hidden;
+}
+@media (max-width: 768px){
+    #about-us{
+        margin-top: 70px;
+    }
+}
+.content-img{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+@media (max-width: 768px){
+    .content-img{
+        margin-left: -70px;
+    }
+}
+.content{
+    padding-top: 30px;
+    padding-right: 50px;
+}
+@media (max-width: 768px){
+    .content{
+        margin-left: 20px;
+    }
+}
+.text-1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.paragraph{
+    text-align: center;
+    margin-top: 30px;
+}
+.para-link{
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+#program-image{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2013/02/26/02/14/exercise-86200_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    overflow-x: hidden;
+}
+#programs{
+    margin-top: -20%;
+    margin-left: 80px;
+    overflow-x: hidden;
+    padding-bottom: 30px;
+}
+@media (max-width: 768px){
+    #programs{
+        margin-left: -3px;
+    }
+}
+.card-1{
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (max-width: 768px){
+    .card-1{
+        width: 90%;
+    }
+}
+@media (max-width: 768px){
+    .card1{
+        margin-top: 20px;
+    }
+}
+.image-1{
+    width: 100%;
+    height: 80%;
+}
+.row-1{
+    padding-top: 40px;
+}
+#services{
+    margin-top: 50px;
+    overflow-x: hidden;
+}
+.last-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.paragraph-1{
+    padding-top: 20px;
+    text-align: center;
+}
+.container{
+    margin-top: 40px;
+    overflow-x: hidden;
+}
+.row-2{
+    overflow-y: hidden;
+}
+@media (max-width: 768px){
+    .row-2{
+        margin-left: 30px;
+    }
+}
+.last-img-1{
+    width: 90%;
+    height: 70%;
+}
+@media (max-width: 768px){
+    .last-img-1{
+        height: 55%;
+    }
+}
+.last-img-2{
+    width: 90%;
+    height: 70%;
+}
+@media (max-width: 768px){
+    .last-img-2{
+        height: 65%;
+        margin-top: 30px;
+    }
+}
+.btn-1{
+    border-radius: 20px;
+    color: #FFFFFF;
+    margin-left: 43%;
+}
+@media (max-width: 768px){
+    .btn-1{
+        margin-left: 35%;
+    }
+}
+.list{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+address{
+    color: #000000;
+    font-weight: bold;
+}
+small{
+    font-size: 10px;
+}
+.new{
+    color: #000000;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  padding: 15px 20px 15px 20px;
+  border-radius: 50px;
+}
